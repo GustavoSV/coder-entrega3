@@ -13,6 +13,7 @@ $color-p6: #806953;
 
 $color-aux1: rgb(211, 238, 238);
 $color-aux2: rgb(152, 230, 230);
+$color-aux3: rgb(78, 78, 78);
 
 /* barra de navegación - menú principal */
 .navbar{
@@ -84,7 +85,7 @@ $color-aux2: rgb(152, 230, 230);
 /* suscripción al boletín */
 .boletin{
     height: 300px;
-    background-color: $color-p1;
+    background-image: linear-gradient(to bottom, $color-p1, $color-aux3);
 
     .tit-boletin{
         padding-top: 40px;
@@ -116,5 +117,13 @@ $color-aux2: rgb(152, 230, 230);
 
     .tarj-c{
         padding: 20px;
+
+        img{
+            transition: all 1s;
+        }
+
+        img:hover{
+            transform: scale(0.9);
+        }
     }
 }
