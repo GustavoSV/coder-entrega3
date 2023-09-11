@@ -127,3 +127,20 @@ $color-aux3: rgb(78, 78, 78);
         }
     }
 }
+
+/* página CONTACTO */
+
+.titulo-contacto{
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+    background-color: $color-p6;
+}
+.formulario{
+    padding: 20px;
+    background-color: $color-p2;
+}
+.mapa{
+    padding: 20px;
+    background-color: $color-p3;
+}

@@ -55,18 +55,37 @@
         </div>
     </nav>
     <!-- Barra de navegación FIN -->
+
     <div class="contacto">
-        <h1>Aquí estamos</h1>
-        <h3>Si quieres mayor información diligencia este sencillo formulario</h3>
-        <form action="enviar.php" method="post" enctype="text/plain">
-            <label for="">Nombre completo</label><br>
-            <input type="text" placeholder="Escribe su nombre"><br>
-            <label for="">Correo electrónico</label><br>
-            <input type="email" placeholder="Correo electrónico"><br>
-            <textarea name="" id="" cols="30" rows="5">Comentarios</textarea><br>
-            <input type="submit" value="Enviar">
-        </form>
-        <section class="mapa">
+        <div class="titulo-contacto">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ol>
+            </nav>
+            <h1>Aquí estamos</h1>
+            <h3>Si quieres mayor información diligencia este sencillo formulario</h3>
+        </div>
+        <div class="d-flex justify-content-center formulario">
+            <form action="/action_page.php">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Escriba su nombre" name="nombre">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Escriba su email" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="comentarios" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="comentarios" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form> 
+        </div>
+
+        <section class="d-flex justify-content-center mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15836.525142265238!2d-73.12315824999999!3d7.110780699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fe8e23a76d9%3A0x3112403f360c6adb!2sParque%20Ecol%C3%B3gico%20La%20Flora!5e0!3m2!1ses!2sco!4v1690840400655!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </div>

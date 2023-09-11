@@ -113,4 +113,22 @@
 }
 .columna-c .tarj-c img:hover {
   transform: scale(0.9);
+}
+
+/* página CONTACTO */
+.titulo-contacto {
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+  background-color: #806953;
+}
+
+.formulario {
+  padding: 20px;
+  background-color: #E9EDC9;
+}
+
+.mapa {
+  padding: 20px;
+  background-color: #FEFAE0;
 }/*# sourceMappingURL=estilos.css.map */
