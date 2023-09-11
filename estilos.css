@@ -1,5 +1,110 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* barra de navegación - menú principal */
+.navbar {
+  height: 80px;
+}
+.navbar .navbar-brand {
+  background-color: #fff !important;
+  color: black !important;
+  padding-left: 10px;
+}
+.navbar .navbar-brand img {
+  height: 60px;
+}
+.navbar .navbar-brand span {
+  padding-right: 20px;
+}
+
+/* Galeria */
+.portada1 {
+  background-color: #806953;
+}
+
+.portada2 {
+  background-color: rgb(211, 238, 238);
+}
+
+.imagen {
+  width: 495px;
+  padding: 0;
+}
+
+.linea {
+  border-top: 1px solid black;
+  max-width: 100px;
+  margin: 30px auto 20px auto;
+}
+
+.texto1 {
+  height: 495px;
+  width: 495px;
+  background-color: #FAEDCD;
+  padding-top: 180px;
+  text-align: center;
+}
+
+.texto2 {
+  height: 495px;
+  width: 495px;
+  background-color: rgb(152, 230, 230);
+  padding-top: 180px;
+  text-align: center;
+}
+
+/* cards de las características del producto */
+.tarjetas {
+  background-color: #FAEDCD;
+  padding: 20px;
+}
+
+.tit-tarjetas {
+  text-align: center !important;
+  padding-top: 40px;
+}
+
+.tarj-h {
+  padding: 20px;
+}
+.tarj-h img {
+  padding: 50px;
+}
+
+/* suscripción al boletín */
+.boletin {
+  height: 300px;
+  background-color: #CCD5AE;
+}
+.boletin .tit-boletin {
+  padding-top: 40px;
+  text-align: center;
+}
+.boletin .email-form {
+  margin-bottom: 10px;
+}
+
+/* footer */
+.pie-pag {
+  padding: 20px;
+}
+
+/* página COLECCION */
+/* título de la galería */
+.tit-galeria {
+  padding: 20px;
+  text-align: center;
+  font-size: medium;
+  background-color: #806953;
+}
+
+.columna-c {
+  padding: 20px;
+}
+.columna-c .tarj-c {
+  padding: 20px;
 }/*# sourceMappingURL=estilos.css.map */
